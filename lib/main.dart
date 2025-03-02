@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:app/pages/counter.dart';
 import 'package:app/pages/greet.dart';
+import 'package:app/pages/user_list.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Counter(),
+      home: UserList(),
     );
   }
 }
